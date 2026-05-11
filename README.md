@@ -1,87 +1,45 @@
-# Welcome to React Router!
+# Resumatch
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+AI-powered ATS Resume Analyzer that evaluates resumes against job descriptions and provides structured feedback for improvement.
 
 ---
 
-Built with ❤️ using React Router.
+## 🚀 Features
+- AI-based ATS resume scoring system
+- PDF resume parsing and text extraction
+- Skill, experience, and keyword analysis
+- Personalized improvement suggestions
+- Real-time resume evaluation
+- Clean and responsive UI
+
+---
+
+## 🛠️ Tech Stack
+- React.js
+- TypeScript
+- Zustand (State Management)
+- AI APIs
+- PDF Processing
+
+---
+
+## 📌 Project Overview
+Resumatch is an intelligent resume screening tool that simulates Applicant Tracking System (ATS) evaluation. It analyzes resumes, compares them with job descriptions, and generates a structured score along with actionable feedback to improve job readiness.
+
+---
+
+## ⚙️ How It Works
+1. Upload your resume (PDF)
+2. Enter job description
+3. AI analyzes matching skills & content
+4. Get ATS score + detailed feedback
+
+---
+
+## 📂 Installation & Setup
+
+```bash
+git clone https://github.com/your-username/resumematch.git
+cd resumematch
+npm install
+npm run dev
